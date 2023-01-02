@@ -487,7 +487,7 @@ var algorithmsMap = map[Algorithm]byte{
 	AlgorithmEC256:       algECCP256,
 	AlgorithmEC384:       algECCP384,
 	AlgorithmEd25519:     algEd25519,
-	AlgorithmECsecp256k1: algECCP256,
+	AlgorithmECsecp256k1: algEd25519,
 	AlgorithmRSA1024:     algRSA1024,
 	AlgorithmRSA2048:     algRSA2048,
 }
