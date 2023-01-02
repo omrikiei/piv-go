@@ -484,11 +484,12 @@ var touchPolicyMap = map[TouchPolicy]byte{
 }
 
 var algorithmsMap = map[Algorithm]byte{
-	AlgorithmEC256:   algECCP256,
-	AlgorithmEC384:   algECCP384,
-	AlgorithmEd25519: algEd25519,
-	AlgorithmRSA1024: algRSA1024,
-	AlgorithmRSA2048: algRSA2048,
+	AlgorithmEC256:       algECCP256,
+	AlgorithmEC384:       algECCP384,
+	AlgorithmEd25519:     algEd25519,
+	AlgorithmECsecp256k1: algECCP256,
+	AlgorithmRSA1024:     algRSA1024,
+	AlgorithmRSA2048:     algRSA2048,
 }
 
 // AttestationCertificate returns the YubiKey's attestation certificate, which
